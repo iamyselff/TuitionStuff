@@ -1,0 +1,13 @@
+{
+  "name": "tuitionstuff",
+  "private": true,
+  "workspaces": [
+    "tuition"
+  ],
+  "scripts": {
+    "dev": "npm --prefix tuition run dev",
+    "build": "npm --prefix tuition run build",
+    "lint": "npm --prefix tuition run lint",
+    "preview": "npm --prefix tuition run preview"
+  }
+}
